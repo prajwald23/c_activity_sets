@@ -1,9 +1,3 @@
-//Write a C program to add two numbers using **pass by value**
-//***Function declarations***
-//int input();
-//int add(int a, int b);
-//void output(int a, int b, int sum);
-
 #include <stdio.h>
 int input();
 int add(int a, int b);
