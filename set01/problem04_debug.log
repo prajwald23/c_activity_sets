@@ -33,3 +33,9 @@ Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem
 [New Thread 14220.0x1c40]
 [Inferior 1 (process 14220) exited normally]
 Breakpoint 1 at 0x40146e: file c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01\problem04.c, line 9.
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem04.exe 
+[New Thread 21940.0x2c48]
+[New Thread 21940.0x55fc]
+[Inferior 1 (process 21940) exited normally]
++q
