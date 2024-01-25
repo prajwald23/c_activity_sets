@@ -1,0 +1,12 @@
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem06.exe 
+[New Thread 19776.0x26c4]
+[New Thread 19776.0x2cec]
+[Inferior 1 (process 19776) exited normally]
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 1/25/2024, 10:38:44 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q
