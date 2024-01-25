@@ -40,3 +40,17 @@ Undefined command: "gcc".  Try "help".
 Undefined command: "".  Try "help".
 +q
 +q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem03.exe 
+[New Thread 8816.0x26c0]
+[New Thread 8816.0x2b6c]
+[Inferior 1 (process 8816) exited normally]
++q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem03.exe 
+[New Thread 22832.0x50c8]
+[New Thread 22832.0x48ec]
+[Inferior 1 (process 22832) exited normally]
++n
+The program is not being run.
++q

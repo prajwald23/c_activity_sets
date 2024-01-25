@@ -1,31 +1,28 @@
-
 #include <stdio.h>
 
-int input_n() {
-    int n;
-    printf("Enter the value of n: ");
-    scanf("%d", &n);
-    return n;
-}
-
-int sum_n_nos(int n) {
-    int sum = 0;
-    for (int i = 1; i <= n; i++) {
-        sum += i;
-    }
-    return sum;
-}
-
-void output(int n, int sum) {
-    printf("The sum of natural numbers from 1 to %d is: %d\n", n, sum);
-}
+int input();
+int compare(int a,int b,int c);
+void output(int a,int b,int c,int largest);
 
 int main() {
-    int n, sum;
-    
-    n = input_n(); 
-    sum = sum_n_nos(n); 
-    output(n, sum); 
-
+    int num1,num2,num3,largest;
+    num1 = input();
+    num2 = input();
+    num3 = input();
+    largest = compare(num1,num2,num3);
+    output(num1,num2,num3,largest);
     return 0;
+}
+int input() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d",&num);
+    return num;
+}
+int compare(int a,int b,int c) {
+    int largest = (a>b)?((a>c)?a:c):((b>c)?b:c);
+    return largest;
+}
+void output(int a,int b,int c,int largest) {
+    printf("Among %d, %d,and %d,the largest number is %d\n",a,b,c,largest);
 }

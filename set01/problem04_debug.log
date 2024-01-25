@@ -1,0 +1,35 @@
++cd "c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01"
+"c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01": Invalid argument.
++gcc -g "c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01\problem05.c" -o "c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01\problem05.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01\problem05.exe"
+Undefined command: "".  Try "help".
++q
++l
+1	#include <stdio.h>
+2	
+3	int input();
+4	void add(int a,int b,int *sum);
+5	void output(int a,int b,int sum);
+6	
+7	int main() {
+8	    int num1,num2,result;
+9	    num1=input();
+10	    num2=input();
++s
+The program is not being run.
++n
+The program is not being run.
++q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem04.exe 
+[New Thread 15568.0x55a0]
+[New Thread 15568.0x4700]
+[Inferior 1 (process 15568) exited normally]
++q
+Undefined command: "rset".  Try "help".
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem04.exe 
+[New Thread 14220.0x980]
+[New Thread 14220.0x1c40]
+[Inferior 1 (process 14220) exited normally]
+Breakpoint 1 at 0x40146e: file c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01\problem04.c, line 9.
