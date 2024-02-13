@@ -19,3 +19,31 @@ No executable specified, use `target exec'.
 +b main
 No symbol table is loaded.  Use the "file" command.
 Make breakpoint pending on future shared library load? (y or [n]) +q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02/a.exe 
+[New Thread 11156.0x2bec]
+[New Thread 11156.0x38f8]
+
+Breakpoint 1, main () at problem01.c:21
+21	    input(&base, &height);
++s
+input (base=0x61ff1c, height=0x61ff18)
+    at problem01.c:4
+4	    printf("Enter base and height of the triangle: ");
++s
+5	    scanf("%f %f", base, height);
++s
+6	}
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 2/13/2024, 2:17:04 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 11156] will be killed.
+
+Quit anyway? (y or n) 
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
