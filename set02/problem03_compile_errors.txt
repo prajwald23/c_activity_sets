@@ -1,0 +1,16 @@
+Compilation started at 2/21/2024, 8:00:50 PM
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem03.c: In function 'main':
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem03.c:13:15: warning: implicit declaration of function 'input_number' [-Wimplicit-function-declaration]
+     int num = input_number();
+               ^~~~~~~~~~~~
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem03.c:15:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(num, result);
+     ^~~~~~
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem03.c: At top level:
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem03.c:26:6: warning: conflicting types for 'output'
+ void output(int n, int result) {
+      ^~~~~~
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem03.c:15:5: note: previous implicit declaration of 'output' was here
+     output(num, result);
+     ^~~~~~
+Compilation finished at 2/21/2024, 8:00:51 PM
