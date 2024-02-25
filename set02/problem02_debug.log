@@ -4,3 +4,15 @@ Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02/./problem
 [New Thread 12312.0x3b9c]
 [Inferior 1 (process 12312) exited normally]
 +q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02/./problem02.exe 
+[New Thread 18188.0x47ec]
+[New Thread 18188.0x47ac]
+[Inferior 1 (process 18188) exited normally]
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 2/25/2024, 10:34:56 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q
