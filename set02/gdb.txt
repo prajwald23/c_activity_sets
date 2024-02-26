@@ -1,0 +1,6 @@
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02/./problem06.exe 
+[New Thread 12852.0x143c]
+[New Thread 12852.0x4414]
+[Inferior 1 (process 12852) exited normally]
++q
