@@ -33,3 +33,15 @@ Undefined command: "git".  Try "help".
 +git push
 Undefined command: "git".  Try "help".
 +q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02/./problem04.exe 
+[New Thread 7512.0x1d54]
+[New Thread 7512.0xf40]
+[Inferior 1 (process 7512) exited normally]
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 2/28/2024, 11:19:44 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q
