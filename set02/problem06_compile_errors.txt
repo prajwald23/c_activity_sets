@@ -26,3 +26,17 @@ c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:10:15: warning:
 c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:10:15: warning: incompatible implicit declaration of built-in function 'strlen'
 c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:10:15: note: include '<string.h>' or provide a declaration of 'strlen'
 Compilation finished at 3/1/2024, 12:21:42 PM
+Compilation started at 3/3/2024, 11:44:04 AM
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c: In function 'input_string':
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:6:7: warning: implicit declaration of function 'strcspn' [-Wimplicit-function-declaration]
+     a[strcspn(a, "\n")] = 0;
+       ^~~~~~~
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:6:7: warning: incompatible implicit declaration of built-in function 'strcspn'
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:6:7: note: include '<string.h>' or provide a declaration of 'strcspn'
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c: In function 'str_reverse':
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:10:15: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int len = strlen(str);
+               ^~~~~~
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:10:15: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set02\problem06.c:10:15: note: include '<string.h>' or provide a declaration of 'strlen'
+Compilation finished at 3/3/2024, 11:44:05 AM
