@@ -1,1 +1,7 @@
 +q
++r
+Starting program: c:\Users\Prajwal D\Desktop\PSC\c_activity_sets\set01/./problem03.exe 
+[New Thread 8720.0x27f0]
+[New Thread 8720.0x1fc4]
+[Inferior 1 (process 8720) exited normally]
++q
